@@ -1,0 +1,44 @@
+.fila, 
+.detalles-card{
+    display: flex;
+    justify-content: center;
+}
+
+.table-headers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+li.table-headers{
+    font-weight: 600;
+}
+
+li.fecha{
+    width: 200px;
+}
+
+li.cliente{
+    width: 150px;
+    text-align: center;
+}
+
+li.id {
+    width: 50px;
+    text-align: center;
+}
+
+li.list-group-item{
+    margin-bottom: 10px;
+}
+
+
+table th:not(.producto),
+table td:not(.producto) {
+    text-align: center;
+}
+
+div.container-fluid{
+    width: 100%;
+}

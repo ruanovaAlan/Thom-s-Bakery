@@ -1,0 +1,17 @@
+div.costo,
+div.stock{
+    width: 45%;
+}
+
+div#code-message{
+    display: none;
+}
+
+div.costo-stock{
+    display: flex;
+    justify-content: space-between;
+}
+
+button.alta-btn{
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+img.img-thumbnail{
+    width: 100%;
+    height: auto;
+}
+
+div#random-products{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#random-products .card{
+    flex: 0 0 calc(33.33% - 3rem);
+    margin: 0.5rem;
+    border: 2px solid #6A5D7B;
+}
+
+
+.list-group-item{
+    background-color: transparent !important;
+}
+
+ul.list-group{
+    border-color: #6a5d7b61 !important;
+}
+
+#random-products .card,
+.card-img-top{
+    background-color: #FFFFFF74 !important;
+}
+
+p.card-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+button.add-cart{
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+button.add-cart:hover{ 
+    background-color: #EE4844;
+    transform: translate(0, -5px);
+    
+}
+
+input.cantidad{
+    width: 25%;
+}
+
+form.add-btn-num{
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-popover {
+    --bs-popover-body-color: var(--bs-green);
+}

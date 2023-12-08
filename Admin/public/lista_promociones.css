@@ -1,0 +1,47 @@
+.fila, 
+.detalles-card{
+    display: flex;
+    justify-content: center;
+}
+
+.table-headers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+li.table-headers,
+#mensaje{
+    font-weight: 600;
+}
+
+li.nombre{
+    width: 200px;
+}
+
+li.status{
+    width: 150px;
+    text-align: center;
+}
+
+li.id {
+    width: 50px;
+    text-align: center;
+}
+
+li.list-group-item{
+    margin-bottom: 10px;
+}
+
+li.nombre {
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 100%;    
+}
+
+
+li.nombre:hover{
+    overflow-x: auto;
+    max-width: 100%; 
+}

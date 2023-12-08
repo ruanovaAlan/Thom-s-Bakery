@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a.navbar-brand{
+    font-weight: 600;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+div#mensaje,
+div#failed-login{
+    display: none;
+    text-align: center;
+}
+
+button.boton-login{
+    height: 40px;
+    width: 100%;
+}
+
+
+div.login-form{
+    width: 40%;
+}
+
+div#alert-bienvenido{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.fila, 
+.detalles-card{
+    display: flex;
+    justify-content: center;
+}
+
+.table-headers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.table-headers li,
+#mensaje{
+    font-weight: 600;
+}
+
+li.nombre,
+li.correo {
+    width: 250px;
+}
+
+li.rol{
+    width: 100px;
+}
+
+li.id {
+    width: 50px;
+    text-align: center;
+}
+
+li.list-group-item{
+    margin-bottom: 10px;
+}
+
+li.correo,
+li.nombre {
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 100%;    
+}
+
+li.correo:hover,
+li.nombre:hover{
+    overflow-x: auto;
+    max-width: 100%; 
+}
+
+
+.btn {
+    font-weight: 400;
+}
+
+#mensaje, #email-message {
+    display: none;
+    text-align: center;
+}
+
+div.alta-form{
+    width: 40%;
+}
+
+img.img-profile {
+    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.editar-img{
+    width: 10rem;
+}
+
+h5.card-title {
+    font-weight: 600;
+}
+
+div.div-text{
+    display: flex;
+    justify-content: space-between;
+}

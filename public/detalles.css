@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    width: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-image: url('../images/wave4_background.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-color: #FFEAEE;  rosita*/
+}
+
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img.img-thumbnail{
+    width: 100%;
+    height: auto;
+}
+
+div#detalles-products{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px solid #6A5D7B;
+}
+
+
+.list-group-item{
+    background-color: transparent !important;
+}
+
+ul.list-group{
+    border-color: #6a5d7b61 !important;
+}
+
+.card,
+.card-img-top{
+    background-color: #FFFFFF74 !important;
+}
+
+p.card-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+button.add-cart{
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+button.add-cart:hover{ 
+    background-color: #EE4844;
+    transform: translate(0, -5px);
+    
+}
+
+input.cantidad{
+    width: 25%;
+}
+
+form.add-btn-num{
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-popover {
+    --bs-popover-body-color: var(--bs-green);
+}
+
